@@ -22,10 +22,10 @@ Alongside academics, I actively work on practice projects and small applications
 My goal is to grow into a strong software developer by continuously learning new tools, improving coding practices, and building applications that solve meaningful problems.
 
 Portfolio:
-
+https://zesty-boba-b49a13.netlify.app/
 
 Resume:
-(Add your resume link)
+https://drive.google.com/drive/my-drive
 
 Projects
 
