@@ -1,7 +1,42 @@
 ## About Me: 👋
 
-# 💫 About Me:
-I am a Computer Science undergraduate at Galgotias University focused on building production-oriented web applications with strong backend reliability, practical usability, and maintainable architecture. My goal is to develop systems that work beyond demos — applications that solve real problems and scale with real users.<br><br>My primary experience is in full-stack development using the MERN stack, with growing exposure to Java-based backend development, Spring Boot ecosystems, and AI-integrated application workflows. I actively explore how AI can enhance product functionality rather than exist as a superficial feature.<br><br>I regularly build, refactor, and maintain projects emphasizing:<br><br>Clean and modular architecture<br><br>Real-world problem solving<br><br>Version control discipline (Git/GitHub workflows)<br><br>Production-style deployment practices<br><br>Continuous skill improvement through iterative projects<br><br>Alongside academics, I selectively take freelance and practice projects to strengthen practical development discipline, system design thinking, and client-focused delivery standards.<br><br>Portfolio: https://vaibhavup.netlify.app/<br><br>Resume: https://drive.google.com/file/d/1PDJ0BXI2Q-uup_c4PoVVplv7TjjU0hmn/view<br><br>Selected Work Highlights<br><br>Client-Oriented Full-Stack Web Application A production-style system built around real client requirements, including structured backend workflows, authentication logic, and maintainable frontend architecture. The focus was practical deployment readiness rather than prototype-level implementation.<br><br>Gen-AI Integrated Web Platform (Ongoing) Currently developing an AI-enabled web application that integrates generative AI capabilities into user workflows with emphasis on usability, system reliability, and meaningful feature design rather than experimental novelty.<br><br>Java + Spring Boot + React AI Application A hybrid full-stack project combining Java backend architecture with modern frontend technologies to handle intelligent user queries and structured responses, focusing on scalable backend design principles.<br><br>
+
+I am a second-year B.Tech Computer Science student at Galgotias University with a strong interest in building practical software applications and continuously improving my programming skills. I enjoy learning new technologies and applying them through projects that strengthen my understanding of real-world software development.
+
+My programming experience includes Java, Python, C, and C++, along with web development technologies such as HTML, CSS, and basic JavaScript. Through coursework and personal projects, I have developed several applications that focus on problem solving, logical thinking, and clean code practices.
+
+I regularly build projects to improve my understanding of:
+
+Object-Oriented Programming concepts
+
+Backend logic and application structure
+
+Basic full-stack web development
+
+Data structures and algorithms
+
+Version control using Git and GitHub
+
+Alongside academics, I actively work on practice projects and small applications to strengthen my development discipline and explore how different technologies interact in real software systems.
+
+My goal is to grow into a strong software developer by continuously learning new tools, improving coding practices, and building applications that solve meaningful problems.
+
+Portfolio:
+
+
+Resume:
+(Add your resume link)
+
+Projects
+
+Java-Based Applications
+Developed multiple applications using Java to practice OOP concepts, problem solving, and algorithmic thinking.
+
+Web Development Projects
+Built web pages and small web applications using HTML, CSS, and JavaScript, focusing on clean UI design and structured code.
+
+Programming Practice Projects
+Created programs in Python, C, and C++ to strengthen core programming concepts, including data structures, algorithms, and logic building.
 
 
 ## 🌐 Socials:
