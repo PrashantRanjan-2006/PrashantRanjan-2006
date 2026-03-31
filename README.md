@@ -25,7 +25,7 @@ Portfolio:
 https://meprashantranjan.netlify.app/
 
 Resume:
-https://drive.google.com/drive/my-drive
+https://drive.google.com/file/d/1PzkCVWT57-na5C0scqnKnjiiMFW3Rq30/view?usp=sharing
 
 Projects
 
