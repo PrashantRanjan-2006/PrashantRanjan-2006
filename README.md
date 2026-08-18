@@ -1,7 +1,7 @@
 ## About Me: 👋
 
 
-I am a second-year B.Tech Computer Science student at Galgotias University with a strong interest in building practical software applications and continuously improving my programming skills. I enjoy learning new technologies and applying them through projects that strengthen my understanding of real-world software development.
+I am a third-year B.Tech Computer Science student at Galgotias University with a strong interest in building practical software applications and continuously improving my programming skills. I enjoy learning new technologies and applying them through projects that strengthen my understanding of real-world software development.
 
 My programming experience includes Java, Python, C, and C++, along with web development technologies such as HTML, CSS, and basic JavaScript. Through coursework and personal projects, I have developed several applications that focus on problem solving, logical thinking, and clean code practices.
 
