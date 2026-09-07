@@ -22,7 +22,7 @@ Alongside academics, I actively work on practice projects and small applications
 My goal is to grow into a strong software developer by continuously learning new tools, improving coding practices, and building applications that solve meaningful problems.
 
 Portfolio:
-https://meprashantranjan.netlify.app/
+https:https://my-portfolio-weld-two-13.vercel.app/
 
 Resume:
 https://drive.google.com/file/d/1eB-5rKWjY3O8A9wal_5R4roUuVoLrXW_/view?usp=drive_link
