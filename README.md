@@ -25,7 +25,7 @@ Portfolio:
 https:https://my-portfolio-weld-two-13.vercel.app/
 
 Resume:
-https://drive.google.com/file/d/1eB-5rKWjY3O8A9wal_5R4roUuVoLrXW_/view?usp=drive_link
+https://drive.google.com/drive/folders/1dyKq5DFf3BVvfBR8mJ9BQngxu0UIRL0A?usp=drive_link
 
 Projects
 
