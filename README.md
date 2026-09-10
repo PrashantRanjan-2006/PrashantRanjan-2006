@@ -1,55 +1,18 @@
-## About Me: 👋
-
-
-I am a third-year B.Tech Computer Science student at Galgotias University with a strong interest in building practical software applications and continuously improving my programming skills. I enjoy learning new technologies and applying them through projects that strengthen my understanding of real-world software development.
-
-My programming experience includes Java, Python, C, and C++, along with web development technologies such as HTML, CSS, and basic JavaScript. Through coursework and personal projects, I have developed several applications that focus on problem solving, logical thinking, and clean code practices.
-
-I regularly build projects to improve my understanding of:
-
-Object-Oriented Programming concepts
-
-Backend logic and application structure
-
-Basic full-stack web development
-
-Data structures and algorithms
-
-Version control using Git and GitHub
-
-Alongside academics, I actively work on practice projects and small applications to strengthen my development discipline and explore how different technologies interact in real software systems.
-
-My goal is to grow into a strong software developer by continuously learning new tools, improving coding practices, and building applications that solve meaningful problems.
-
-Portfolio:
-https:https://my-portfolio-weld-two-13.vercel.app/
-
-Resume:
-https://drive.google.com/drive/folders/1dyKq5DFf3BVvfBR8mJ9BQngxu0UIRL0A?usp=drive_link
-
-Projects
-
-Java-Based Applications
-Developed multiple applications using Java to practice OOP concepts, problem solving, and algorithmic thinking.
-
-Web Development Projects
-Built web pages and small web applications using HTML, CSS, and JavaScript, focusing on clean UI design and structured code.
-
-Programming Practice Projects
-Created programs in Python, C, and C++ to strengthen core programming concepts, including data structures, algorithms, and logic building.
+# 💫 About Me:
+Hi, I'm Prashant! 👋<br><br>💻 Aspiring Full Stack Developer | Java Developer | React Enthusiast<br><br>I am passionate about building modern web applications and solving real-world problems through code. I enjoy learning new technologies, contributing to open-source projects, and continuously improving my development skills.<br><br>🚀 About Me<br>🎓 Computer Science Student<br>💻 Full Stack Web Developer<br>🌱 Currently learning Node.js, Express.js, MongoDB & Firebase<br>⚡ Strong interest in Software Development and AI<br>📚 Solving DSA problems in Java<br>🎯 Goal: Become a Software Engineer at a top tech company<br>❤️ Love building useful web applications<br>🛠 Tech Stack<br>Programming Languages<br>Java<br>JavaScript<br>HTML5<br>CSS3<br>Frontend<br>React.js<br>Bootstrap<br>Tailwind CSS<br>Backend<br>Node.js<br>Express.js<br>Database<br>MongoDB<br>Firebase<br>MySQL<br>Git<br>GitHub<br>VS Code<br>Vercel<br>Netlify<br>📚 Currently Learning<br><br><br>Backend Development<br>REST APIs<br>Firebase Authentication<br>MongoDB<br>System Design<br>Data Structures & Algorithms<br>💼 Projects<br><br>📝 Library management system<br>        E Commerce Shopkart<br>        Snake Game<br>        My Portfolio<br>        Tic-Tac-Toe<br>        Dailylog Calendar<br>        2048 - Game<br>        Weather Forcasting App<br> <br><br><br><br>🌐 Personal Portfolio-https://my-portfolio-weld-two-13.vercel.app/<br><br><br><br>🏆 Achievements<br><br>Solved DSA problems in Java<br>Built multiple React projects<br>Learning Full Stack Development<br>Regular GitHub contributor<br><br>🎯 Goals for 2026<br><br> Data Structures & Algorithms<br> Contribute to Open Source<br>  Build SaaS Projects<br> Get Internshiprack Software Developer Role<br><br>📈 GitHub Stats<br><br>Enable these sections in GPRM:<br><br>GitHub Stats<br>GitHub Streak<br>Most Used Languages<br>Contribution Graph<br>Activity Graph<br>Profile Views<br>GitHub Trophies<br>🌐 Connect With Me<br><br>GitHub:<br><br>https://github.com/PrashantRanjan-2006<br><br>LinkedIn:<br><br>in/prashant-ranjan-a39077330<br><br>Portfolio:<br><br>https://my-portfolio-weld-two-13.vercel.app/<br><br>Email:<br><br>prashantranjan20192006@gmail.com<br>💡 Fun Facts<br><br>☕ Coffee + Code = Productivity<br>🎵 I love listening to music while coding.<br>🚀 I enjoy building projects that solve real-world problems.<br>📖 I believe learning never stops.<br>📊 Skills<br><br>Languages<br><br>Java<br>JavaScript<br>HTML<br>CSS<br><br>Frameworks<br><br>React<br>Node.js<br>Express<br><br>Databases<br><br>MongoDB<br>Firebase<br>MySQL<br><br>Developer Tools<br><br>Git<br>GitHub<br>VS Code<br>Postman<br>Vercel<br>Netlify<br>🔥 Interests<br><br>Full Stack Development<br>Web Development<br>Software Engineering<br>Artificial Intelligence<br>Open Source<br>Problem Solving<br>Cloud Computing<br><br>⭐ Favorite Quote<br><br>"First, solve the problem. Then, write the code." — John Johnson<br><br>💎 Recommended GPRM Sections<br><br>Enable these for a clean, professional profile:<br><br>✅ Animated Header<br>✅ Typing Animation<br>✅ About Me<br>✅ Skills<br>✅ Tech Stack Icons<br>✅ GitHub Stats<br>✅ GitHub Streak<br>✅ Top Languages<br>✅ GitHub Trophies<br>✅ Contribution Graph<br>✅ Visitor Counter<br>✅ Featured Projects<br>✅ Connect with Me<br>✅ Fun Facts<br>✅ Current Learning<br>✅ Goals<br>✅ Footer Wave Animation
 
 
 ## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/prashant_ranjan5916/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prashant-ranjan-a39077330/) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/prashant5916) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://www.youtube.com/@hindimovies1558) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:prashantranjan20192006@gmail.com) 
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/prashant_ranjan5916) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/in/prashant-ranjan-a39077330) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/@prashant5916) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:prashantranjan20192006@gmail.com) 
 
 # 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Objective-C](https://img.shields.io/badge/OBJECTIVE--C-%233A95E3.svg?style=for-the-badge&logo=apple&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![Apache Tomcat](https://img.shields.io/badge/apache%20tomcat-%23F8DC75.svg?style=for-the-badge&logo=apache-tomcat&logoColor=black) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white) ![Sketch](https://img.shields.io/badge/Sketch-FFB387?style=for-the-badge&logo=sketch&logoColor=black) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![Apache Tomcat](https://img.shields.io/badge/apache%20tomcat-%23F8DC75.svg?style=for-the-badge&logo=apache-tomcat&logoColor=black) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white) ![Adobe After Effects](https://img.shields.io/badge/Adobe%20After%20Effects-9999FF.svg?style=for-the-badge&logo=Adobe%20After%20Effects&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 # 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=PrashantRanjan-2006&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=PrashantRanjan-2006&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=PrashantRanjan-2006&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+![](https://github-readme-stats.shion.dev/api?username=PrashantRanjan-2006&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://streak-stats.demolab.com/?user=PrashantRanjan-2006&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=PrashantRanjan-2006&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
 ---
-[![](https://visitcount.itsvg.in/api?id=PrashantRanjan-2006&icon=0&color=0)](https://visitcount.itsvg.in)
+[![](https://komarev.com/ghpvc/?username=PrashantRanjan-2006&icon=0&color=0)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
