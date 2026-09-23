@@ -11,6 +11,9 @@ and solving real-world problems through code.
   <a href="https://instagram.com/prashant_ranjan5916">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
+  <a href="https://www.linkedin.com/in/prashant-ranjan-a39077330/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
 </p>
 
 </div>
