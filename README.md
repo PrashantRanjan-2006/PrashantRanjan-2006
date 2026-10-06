@@ -1,88 +1,233 @@
 <div align="center">
 
-# Hi, I'm Prashant Ranjan 👋
+# 👋 Hi, I'm Prashant Ranjan
 
-### Aspiring Full Stack Developer | Java Developer | React Enthusiast
-
-I enjoy building modern web applications, learning new technologies,
-and solving real-world problems through code.
+### 💻 Java Developer • 🚀 Full Stack Developer • 🌟 Open Source Contributor • 🎨 UI Designer
 
 <p>
-  <a href="https://instagram.com/prashant_ranjan5916">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-  </a>
+Building scalable web applications while mastering Java and modern full-stack development.
+</p>
+
+<p>
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=24&duration=3000&pause=1000&color=247BFF&center=true&vCenter=true&width=700&lines=Java+Developer;Full+Stack+Developer;Open+Source+Contributor;UI+Designer" />
+</p>
+
+<p>
+<a href="https://github.com/PrashantRanjan-2006">
+<img src="https://img.shields.io/github/followers/PrashantRanjan-2006?style=for-the-badge&logo=github&color=247BFF"/>
+</a>
+
+<a href="https://github.com/PrashantRanjan-2006">
+<img src="https://komarev.com/ghpvc/?username=PrashantRanjan-2006&style=for-the-badge&color=247BFF"/>
+</a>
+
+<a href="https://www.linkedin.com/in/prashant-ranjan-a39077330/">
+<img src="https://img.shields.io/badge/LinkedIn-Connect-247BFF?style=for-the-badge&logo=linkedin"/>
+</a>
+
 </p>
 
 </div>
 
 ---
 
-## 👨‍💻 About Me
+# 🚀 About Me
 
-- 🌱 Currently improving my full-stack development skills
-- 💻 Interested in Java, React, and modern web technologies
-- 🚀 Focused on building useful and user-friendly applications
-- 📚 Always learning and exploring new tools
-- 🤝 Open to collaborating on interesting projects
+🎓 **B.Tech Computer Science & Engineering Student**  
+🏫 **Galgotias University**
+
+📍 **Greater Noida, India**
+
+💡 Passionate about building scalable software, solving real-world problems, and designing beautiful user experiences.
+
+I enjoy developing modern full-stack applications using Java, Spring Boot, React, and MySQL while continuously improving my problem-solving skills through Data Structures & Algorithms.
 
 ---
 
-## 🛠️ Tech Stack
+# 💼 Current Roles
 
-### Languages
+- ☕ Java Developer
+- 🌐 Full Stack Developer
+- 🌟 Open Source Contributor
+- 🎨 UI Designer
+
+---
+
+# 🛠 Tech Stack
+
+### Programming Languages
 
 <p>
-  <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white" alt="C" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+
+<img src="https://skillicons.dev/icons?i=java,js,c"/>
+
 </p>
 
 ### Frontend
 
 <p>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+
+<img src="https://skillicons.dev/icons?i=html,css,react"/>
+
 </p>
 
-### Tools & Platforms
+### Backend
 
 <p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" alt="Visual Studio Code" />
+
+<img src="https://skillicons.dev/icons?i=spring"/>
+
+</p>
+
+### Database
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=mysql"/>
+
+</p>
+
+### Tools
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode"/>
+
 </p>
 
 ---
 
-## 📊 GitHub Statistics
+# 📊 GitHub Analytics
 
 <div align="center">
 
-<img src="https://github-readme-stats.shion.dev/api?username=PrashantRanjan-2006&theme=dark&hide_border=true&include_all_commits=true&count_private=true" height="165" alt="GitHub statistics" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=PrashantRanjan-2006&show_icons=true&theme=tokyonight&hide_border=true"/>
 
-<img src="https://github-readme-stats.shion.dev/api/top-langs/?username=PrashantRanjan-2006&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact" height="165" alt="Top languages" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PrashantRanjan-2006&layout=compact&theme=tokyonight&hide_border=true"/>
 
-<br />
+</div>
 
-<img src="https://streak-stats.demolab.com/?user=PrashantRanjan-2006&theme=dark&hide_border=true" alt="GitHub contribution streak" />
+<div align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=PrashantRanjan-2006&theme=tokyonight&hide_border=true"/>
 
 </div>
 
 ---
 
-## 📈 Profile Visitors
+# 📈 GitHub Activity
 
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=PrashantRanjan-2006&style=flat-square&color=blue" alt="Profile views" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=PrashantRanjan-2006&theme=tokyo-night&hide_border=true"/>
 
 </div>
 
 ---
 
+# 🚀 Featured Projects
+
+## 🏥 Hospital Management System
+
+A complete Hospital Management platform that streamlines patient registration, appointment booking, doctor management, medical records, and hospital administration.
+
+**Tech Stack**
+
+`Java` `Spring Boot` `MySQL` `React` `HTML` `CSS`
+
+---
+
+## 🍔 Quick Bite
+
+A modern food ordering platform that enables users to browse restaurants, manage carts, place orders, and track deliveries through a responsive interface.
+
+**Tech Stack**
+
+`Java` `Spring Boot` `MySQL`
+
+---
+
+## ❤️ Healthcare System
+
+A healthcare web application designed to connect patients, doctors, and hospitals with secure appointment scheduling and healthcare management.
+
+**Tech Stack**
+
+`React` `JavaScript` `HTML` `CSS`
+
+---
+
+# 🏆 Achievements
+
+🏅 **150+ LeetCode Problems Solved**
+
+🏅 **50+ GitHub Contributions**
+
+🏅 **5+ Real-World Projects Built**
+
+---
+
+# 🌱 Currently Learning
+
+- Spring Boot Microservices
+- Advanced React
+- System Design
+- Data Structures & Algorithms
+- REST APIs
+- Cloud Deployment
+
+---
+
+# 🎯 Interests
+
+🏋 Gym
+
+🎨 UI Design
+
+🤖 Artificial Intelligence
+
+♟ Chess
+
+📷 Photography
+
+📚 Reading
+
+---
+
+# 🤝 Let's Connect
+
+<p align="center">
+
+<a href="mailto:prashantranjan20192006@gmail.com">
+<img src="https://skillicons.dev/icons?i=gmail"/>
+</a>
+
+<a href="https://www.linkedin.com/in/prashant-ranjan-a39077330/">
+<img src="https://skillicons.dev/icons?i=linkedin"/>
+</a>
+
+<a href="https://github.com/PrashantRanjan-2006">
+<img src="https://skillicons.dev/icons?i=github"/>
+</a>
+
+<a href="https://my-portfolio-weld-two-13.vercel.app/">
+<img src="https://img.shields.io/badge/Portfolio-Visit-blue?style=for-the-badge"/>
+</a>
+
+<a href="https://x.com/prashant5916">
+<img src="https://img.shields.io/badge/Twitter-X-000000?style=for-the-badge&logo=x"/>
+</a>
+
+</p>
+
+---
+
 <div align="center">
 
-### Thanks for visiting my profile! ⭐
+## 💙 Thanks for Visiting!
+
+*"Code. Learn. Build. Repeat."*
+
+⭐ If you like my work, consider following me and checking out my repositories.
 
 </div>
