@@ -1,0 +1,381 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" width="100%" height="100%">
+  <defs>
+    <style>
+      .st-font { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .st-mono { font-family: 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+
+      .st-node {
+        cursor: pointer;
+        transition: filter 0.3s ease, transform 0.3s ease;
+      }
+      .st-node:hover {
+        filter: drop-shadow(0 0 14px rgba(36, 123, 255, 0.95));
+      }
+      .st-cat-card {
+        transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), stroke 0.3s ease;
+        cursor: pointer;
+      }
+      .st-cat-card:hover {
+        transform: translateX(6px);
+      }
+      .st-chip {
+        transition: transform 0.25s ease, fill 0.25s ease;
+      }
+      .st-chip:hover {
+        transform: translateY(-2px);
+      }
+    </style>
+
+    <linearGradient id="st-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050811"/>
+      <stop offset="50%" stop-color="#070B16"/>
+      <stop offset="100%" stop-color="#0A1124"/>
+    </linearGradient>
+
+    <linearGradient id="st-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#247BFF" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#334155" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#FF354F" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <linearGradient id="st-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#247BFF"/>
+      <stop offset="100%" stop-color="#FF354F"/>
+    </linearGradient>
+
+    <linearGradient id="st-ring-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#247BFF" stop-opacity="0.65"/>
+      <stop offset="50%" stop-color="#247BFF" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#FF354F" stop-opacity="0.55"/>
+    </linearGradient>
+
+    <linearGradient id="st-core-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E3A8A"/>
+      <stop offset="50%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#3B0764"/>
+    </linearGradient>
+
+    <radialGradient id="st-orb-blue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#247BFF" stop-opacity="0.32"/>
+      <stop offset="60%" stop-color="#247BFF" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#247BFF" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="st-orb-red" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF354F" stop-opacity="0.24"/>
+      <stop offset="60%" stop-color="#FF354F" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#FF354F" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="st-dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#94A3B8" fill-opacity="0.13"/>
+    </pattern>
+
+    <filter id="st-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <clipPath id="st-outer-clip">
+      <rect x="8" y="8" width="1184" height="604" rx="26"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#st-outer-clip)">
+    <!-- Background -->
+    <rect x="8" y="8" width="1184" height="604" rx="26" fill="url(#st-bg)"/>
+    <rect x="8" y="8" width="1184" height="604" rx="26" fill="url(#st-dots)"/>
+
+    <!-- Ambient Glows -->
+    <circle cx="350" cy="330" r="290" fill="url(#st-orb-blue)">
+      <animate attributeName="r" values="260;310;260" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="920" cy="300" r="270" fill="url(#st-orb-red)"/>
+
+    <!-- Top Header Row -->
+    <g transform="translate(46, 40)">
+      <rect x="0" y="0" width="176" height="28" rx="14" fill="rgba(36, 123, 255, 0.15)" stroke="rgba(36, 123, 255, 0.45)" stroke-width="1"/>
+      <circle cx="16" cy="14" r="3.5" fill="#247BFF"/>
+      <text x="28" y="18" class="st-mono" fill="#60A5FA" font-size="11" font-weight="700" letter-spacing="1.2">03 // TECH STACK</text>
+      <text x="196" y="21" class="st-font" fill="#F5F7FA" font-size="24" font-weight="800" letter-spacing="-0.5"> Engineering Ecosystem &amp; Orbital Stack</text>
+    </g>
+
+    <!-- ==========================================================
+         LEFT SIDE: 3 ROTATING ORBITAL CIRCLES AROUND SPRING BOOT
+         Center at (350, 344)
+         ========================================================== -->
+    <g transform="translate(350, 344)">
+      <!-- Static Crosshair Radar Lines -->
+      <line x1="-260" y1="0" x2="260" y2="0" stroke="#247BFF" stroke-opacity="0.1" stroke-width="1" stroke-dasharray="4 6"/>
+      <line x1="0" y1="-250" x2="0" y2="250" stroke="#247BFF" stroke-opacity="0.1" stroke-width="1" stroke-dasharray="4 6"/>
+
+      <!-- Orbit Circle 3 (Outer: r = 228) -->
+      <circle cx="0" cy="0" r="228" fill="none" stroke="url(#st-ring-blue)" stroke-width="1.5"/>
+      <circle cx="0" cy="0" r="228" fill="none" stroke="#247BFF" stroke-width="1" stroke-dasharray="8 14" opacity="0.45"/>
+
+      <!-- Orbit Circle 2 (Middle: r = 160) -->
+      <circle cx="0" cy="0" r="160" fill="none" stroke="url(#st-ring-blue)" stroke-width="1.5"/>
+      <circle cx="0" cy="0" r="160" fill="none" stroke="#FF354F" stroke-width="1.2" stroke-dasharray="6 12" opacity="0.4"/>
+
+      <!-- Orbit Circle 1 (Inner: r = 94) -->
+      <circle cx="0" cy="0" r="94" fill="none" stroke="url(#st-ring-blue)" stroke-width="1.8"/>
+      <circle cx="0" cy="0" r="94" fill="none" stroke="#60A5FA" stroke-width="1" stroke-dasharray="4 8" opacity="0.5"/>
+
+      <!-- ==========================================
+           CENTER CORE: SPRING BOOT
+           ========================================== -->
+      <g class="st-node">
+        <circle cx="0" cy="0" r="54" fill="rgba(16, 185, 129, 0.14)">
+          <animate attributeName="r" values="50;58;50" dur="3.5s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="0" cy="0" r="46" fill="#0B1325" stroke="#10B981" stroke-width="2.2"/>
+        <!-- Spring Boot Hexagon + Leaf Logo -->
+        <polygon points="0,-24 21,-12 21,12 0,24 -21,12 -21,-12" fill="rgba(16, 185, 129, 0.22)" stroke="#34D399" stroke-width="1.5"/>
+        <path d="M-7,4 C-7,-7 5,-12 11,-12 C11,-3 5,8 -7,4 Z M-7,4 C-3,6 3,3 7,-4" fill="none" stroke="#6EE7B7" stroke-width="2.2" stroke-linecap="round"/>
+        <text x="0" y="37" text-anchor="middle" class="st-mono" fill="#F5F7FA" font-size="9.5" font-weight="800">Spring Boot</text>
+      </g>
+
+      <!-- ==========================================
+           ORBIT 1 (INNER, r = 94, CW 28s):
+           Java (0 deg), MySQL (120 deg), React (240 deg)
+           ========================================== -->
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="28s" repeatCount="indefinite"/>
+
+        <!-- Node: Java (at 0 deg -> x=0, y=-94) -->
+        <g transform="translate(0, -94)">
+          <g class="st-node">
+            <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="28s" repeatCount="indefinite"/>
+            <circle cx="0" cy="0" r="26" fill="#0B1222" stroke="#F97316" stroke-width="1.8"/>
+            <text x="0" y="-2" text-anchor="middle" class="st-mono" fill="#FB923C" font-size="11" font-weight="800">JAVA</text>
+            <text x="0" y="12" text-anchor="middle" class="st-font" fill="#F5F7FA" font-size="8.5" font-weight="600">JDK</text>
+          </g>
+        </g>
+
+        <!-- Node: MySQL (at 120 deg -> x=81.4, y=47) -->
+        <g transform="translate(81.4, 47)">
+          <g class="st-node">
+            <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="28s" repeatCount="indefinite"/>
+            <circle cx="0" cy="0" r="26" fill="#0B1222" stroke="#38BDF8" stroke-width="1.8"/>
+            <ellipse cx="0" cy="-7" rx="10" ry="4" fill="none" stroke="#38BDF8" stroke-width="1.6"/>
+            <path d="M-10,-7 L-10,3 C-10,5.2 -5.5,7 0,7 C5.5,7 10,5.2 10,3 L10,-7" fill="none" stroke="#38BDF8" stroke-width="1.6"/>
+            <text x="0" y="18" text-anchor="middle" class="st-mono" fill="#F5F7FA" font-size="8.5" font-weight="700">MySQL</text>
+          </g>
+        </g>
+
+        <!-- Node: React (at 240 deg -> x=-81.4, y=47) -->
+        <g transform="translate(-81.4, 47)">
+          <g class="st-node">
+            <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="28s" repeatCount="indefinite"/>
+            <circle cx="0" cy="0" r="26" fill="#0B1222" stroke="#22D3EE" stroke-width="1.8"/>
+            <ellipse cx="0" cy="-4" rx="11" ry="4.2" fill="none" stroke="#22D3EE" stroke-width="1.3" transform="rotate(30 0 -4)"/>
+            <ellipse cx="0" cy="-4" rx="11" ry="4.2" fill="none" stroke="#22D3EE" stroke-width="1.3" transform="rotate(-30 0 -4)"/>
+            <circle cx="0" cy="-4" r="2.2" fill="#22D3EE"/>
+            <text x="0" y="18" text-anchor="middle" class="st-mono" fill="#F5F7FA" font-size="8.5" font-weight="700">React</text>
+          </g>
+        </g>
+      </g>
+
+      <!-- ==========================================
+           ORBIT 2 (MIDDLE, r = 160, CCW 36s):
+           JavaScript (30 deg), HTML (150 deg), CSS (270 deg)
+           ========================================== -->
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="36s" repeatCount="indefinite"/>
+
+        <!-- Node: JavaScript (at 30 deg -> x=138.5, y=-80) -->
+        <g transform="translate(138.5, -80)">
+          <g class="st-node">
+            <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="36s" repeatCount="indefinite"/>
+            <circle cx="0" cy="0" r="27" fill="#0B1222" stroke="#FACC15" stroke-width="1.8"/>
+            <rect x="-11" y="-14" width="22" height="18" rx="4" fill="rgba(250, 204, 21, 0.2)"/>
+            <text x="0" y="-1" text-anchor="middle" class="st-mono" fill="#FACC15" font-size="11.5" font-weight="900">JS</text>
+            <text x="0" y="16" text-anchor="middle" class="st-mono" fill="#F5F7FA" font-size="7.5" font-weight="700">JavaScript</text>
+          </g>
+        </g>
+
+        <!-- Node: HTML (at 150 deg -> x=138.5, y=80) -->
+        <g transform="translate(138.5, 80)">
+          <g class="st-node">
+            <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="36s" repeatCount="indefinite"/>
+            <circle cx="0" cy="0" r="26" fill="#0B1222" stroke="#F97316" stroke-width="1.8"/>
+            <text x="0" y="-1" text-anchor="middle" class="st-mono" fill="#FB923C" font-size="10.5" font-weight="900">&lt;/&gt;</text>
+            <text x="0" y="15" text-anchor="middle" class="st-mono" fill="#F5F7FA" font-size="8.5" font-weight="700">HTML</text>
+          </g>
+        </g>
+
+        <!-- Node: CSS (at 270 deg -> x=-160, y=0) -->
+        <g transform="translate(-160, 0)">
+          <g class="st-node">
+            <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="36s" repeatCount="indefinite"/>
+            <circle cx="0" cy="0" r="26" fill="#0B1222" stroke="#3B82F6" stroke-width="1.8"/>
+            <text x="0" y="-1" text-anchor="middle" class="st-mono" fill="#60A5FA" font-size="11" font-weight="900">{#}</text>
+            <text x="0" y="15" text-anchor="middle" class="st-mono" fill="#F5F7FA" font-size="8.5" font-weight="700">CSS</text>
+          </g>
+        </g>
+      </g>
+
+      <!-- ==========================================
+           ORBIT 3 (OUTER, r = 228, CW 46s):
+           Git (45 deg), GitHub (135 deg), VS Code (225 deg), C (315 deg)
+           ========================================== -->
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="46s" repeatCount="indefinite"/>
+
+        <!-- Node: Git (at 45 deg -> x=161.2, y=-161.2) -->
+        <g transform="translate(161.2, -161.2)">
+          <g class="st-node">
+            <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="46s" repeatCount="indefinite"/>
+            <circle cx="0" cy="0" r="26" fill="#0B1222" stroke="#FF354F" stroke-width="1.8"/>
+            <circle cx="-5" cy="-7" r="2.5" fill="#FF354F"/>
+            <circle cx="5" cy="-2" r="2.5" fill="#FF354F"/>
+            <circle cx="-5" cy="3" r="2.5" fill="#FF354F"/>
+            <line x1="-5" y1="-7" x2="-5" y2="3" stroke="#FF354F" stroke-width="1.8"/>
+            <line x1="-5" y1="-4" x2="5" y2="-2" stroke="#FF354F" stroke-width="1.8"/>
+            <text x="0" y="17" text-anchor="middle" class="st-mono" fill="#F5F7FA" font-size="8.5" font-weight="700">Git</text>
+          </g>
+        </g>
+
+        <!-- Node: GitHub (at 135 deg -> x=161.2, y=161.2) -->
+        <g transform="translate(161.2, 161.2)">
+          <g class="st-node">
+            <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="46s" repeatCount="indefinite"/>
+            <circle cx="0" cy="0" r="26" fill="#0B1222" stroke="#E2E8F0" stroke-width="1.8"/>
+            <circle cx="0" cy="-4" r="7" fill="none" stroke="#F8FAFC" stroke-width="1.8"/>
+            <text x="0" y="17" text-anchor="middle" class="st-mono" fill="#F5F7FA" font-size="8.5" font-weight="700">GitHub</text>
+          </g>
+        </g>
+
+        <!-- Node: VS Code (at 225 deg -> x=-161.2, y=161.2) -->
+        <g transform="translate(-161.2, 161.2)">
+          <g class="st-node">
+            <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="46s" repeatCount="indefinite"/>
+            <circle cx="0" cy="0" r="27" fill="#0B1222" stroke="#247BFF" stroke-width="1.8"/>
+            <path d="M-7,-8 L5,-13 L5,3 L-7,-2 Z M-7,-2 L5,-8 M-7,-8 L5,3" fill="none" stroke="#60A5FA" stroke-width="1.6"/>
+            <text x="0" y="17" text-anchor="middle" class="st-mono" fill="#F5F7FA" font-size="8" font-weight="700">VS Code</text>
+          </g>
+        </g>
+
+        <!-- Node: C Language (at 315 deg -> x=-161.2, y=-161.2) -->
+        <g transform="translate(-161.2, -161.2)">
+          <g class="st-node">
+            <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="46s" repeatCount="indefinite"/>
+            <circle cx="0" cy="0" r="25" fill="#0B1222" stroke="#60A5FA" stroke-width="1.8"/>
+            <text x="0" y="0" text-anchor="middle" class="st-mono" fill="#60A5FA" font-size="14" font-weight="900">C</text>
+            <text x="0" y="15" text-anchor="middle" class="st-mono" fill="#F5F7FA" font-size="8" font-weight="700">Lang</text>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <!-- ==========================================================
+         RIGHT SIDE: STRUCTURED TECH STACK CATEGORIES PANEL
+         ========================================================== -->
+    <g transform="translate(658, 86)">
+      <!-- Category 1: Languages -->
+      <g class="st-cat-card" transform="translate(0, 0)">
+        <rect x="0" y="0" width="496" height="88" rx="16" fill="rgba(15, 23, 42, 0.75)" stroke="rgba(36, 123, 255, 0.35)" stroke-width="1.2"/>
+        <rect x="0" y="18" width="4" height="52" rx="2" fill="#247BFF"/>
+        <text x="24" y="28" class="st-mono" fill="#60A5FA" font-size="11" font-weight="700" letter-spacing="1.4">01 // LANGUAGES</text>
+        <g transform="translate(24, 40)">
+          <g class="st-chip">
+            <rect x="0" y="0" width="110" height="34" rx="10" fill="rgba(36, 123, 255, 0.16)" stroke="#247BFF" stroke-width="1"/>
+            <circle cx="18" cy="17" r="4" fill="#FB923C"/>
+            <text x="32" y="22" class="st-font" fill="#F5F7FA" font-size="13.5" font-weight="700">Java</text>
+          </g>
+          <g class="st-chip" transform="translate(124, 0)">
+            <rect x="0" y="0" width="136" height="34" rx="10" fill="rgba(36, 123, 255, 0.16)" stroke="#247BFF" stroke-width="1"/>
+            <circle cx="18" cy="17" r="4" fill="#FACC15"/>
+            <text x="32" y="22" class="st-font" fill="#F5F7FA" font-size="13.5" font-weight="700">JavaScript</text>
+          </g>
+          <g class="st-chip" transform="translate(274, 0)">
+            <rect x="0" y="0" width="88" height="34" rx="10" fill="rgba(36, 123, 255, 0.16)" stroke="#247BFF" stroke-width="1"/>
+            <circle cx="18" cy="17" r="4" fill="#60A5FA"/>
+            <text x="32" y="22" class="st-font" fill="#F5F7FA" font-size="13.5" font-weight="700">C</text>
+          </g>
+        </g>
+      </g>
+
+      <!-- Category 2: Frontend -->
+      <g class="st-cat-card" transform="translate(0, 102)">
+        <rect x="0" y="0" width="496" height="88" rx="16" fill="rgba(15, 23, 42, 0.75)" stroke="rgba(255, 53, 79, 0.35)" stroke-width="1.2"/>
+        <rect x="0" y="18" width="4" height="52" rx="2" fill="#FF354F"/>
+        <text x="24" y="28" class="st-mono" fill="#FF6B7F" font-size="11" font-weight="700" letter-spacing="1.4">02 // FRONTEND</text>
+        <g transform="translate(24, 40)">
+          <g class="st-chip">
+            <rect x="0" y="0" width="106" height="34" rx="10" fill="rgba(255, 53, 79, 0.14)" stroke="#FF354F" stroke-width="1"/>
+            <circle cx="18" cy="17" r="4" fill="#FB923C"/>
+            <text x="32" y="22" class="st-font" fill="#F5F7FA" font-size="13.5" font-weight="700">HTML</text>
+          </g>
+          <g class="st-chip" transform="translate(120, 0)">
+            <rect x="0" y="0" width="102" height="34" rx="10" fill="rgba(255, 53, 79, 0.14)" stroke="#FF354F" stroke-width="1"/>
+            <circle cx="18" cy="17" r="4" fill="#3B82F6"/>
+            <text x="32" y="22" class="st-font" fill="#F5F7FA" font-size="13.5" font-weight="700">CSS</text>
+          </g>
+          <g class="st-chip" transform="translate(236, 0)">
+            <rect x="0" y="0" width="114" height="34" rx="10" fill="rgba(255, 53, 79, 0.14)" stroke="#FF354F" stroke-width="1"/>
+            <circle cx="18" cy="17" r="4" fill="#22D3EE"/>
+            <text x="32" y="22" class="st-font" fill="#F5F7FA" font-size="13.5" font-weight="700">React</text>
+          </g>
+        </g>
+      </g>
+
+      <!-- Category 3 & 4: Backend & Database (Side by Side) -->
+      <g class="st-cat-card" transform="translate(0, 204)">
+        <rect x="0" y="0" width="240" height="92" rx="16" fill="rgba(15, 23, 42, 0.75)" stroke="rgba(16, 185, 129, 0.4)" stroke-width="1.2"/>
+        <rect x="0" y="18" width="4" height="56" rx="2" fill="#10B981"/>
+        <text x="22" y="28" class="st-mono" fill="#34D399" font-size="11" font-weight="700" letter-spacing="1.4">03 // BACKEND</text>
+        <g class="st-chip" transform="translate(22, 42)">
+          <rect x="0" y="0" width="166" height="36" rx="10" fill="rgba(16, 185, 129, 0.16)" stroke="#10B981" stroke-width="1.2"/>
+          <circle cx="18" cy="18" r="4.5" fill="#10B981"/>
+          <text x="32" y="23" class="st-font" fill="#F5F7FA" font-size="14" font-weight="800">Spring Boot</text>
+        </g>
+      </g>
+
+      <g class="st-cat-card" transform="translate(256, 204)">
+        <rect x="0" y="0" width="240" height="92" rx="16" fill="rgba(15, 23, 42, 0.75)" stroke="rgba(56, 189, 248, 0.4)" stroke-width="1.2"/>
+        <rect x="0" y="18" width="4" height="56" rx="2" fill="#38BDF8"/>
+        <text x="22" y="28" class="st-mono" fill="#38BDF8" font-size="11" font-weight="700" letter-spacing="1.4">04 // DATABASE</text>
+        <g class="st-chip" transform="translate(22, 42)">
+          <rect x="0" y="0" width="146" height="36" rx="10" fill="rgba(56, 189, 248, 0.16)" stroke="#38BDF8" stroke-width="1.2"/>
+          <circle cx="18" cy="18" r="4.5" fill="#38BDF8"/>
+          <text x="32" y="23" class="st-font" fill="#F5F7FA" font-size="14" font-weight="800">MySQL</text>
+        </g>
+      </g>
+
+      <!-- Category 5: Tools -->
+      <g class="st-cat-card" transform="translate(0, 310)">
+        <rect x="0" y="0" width="496" height="88" rx="16" fill="rgba(15, 23, 42, 0.75)" stroke="rgba(36, 123, 255, 0.35)" stroke-width="1.2"/>
+        <rect x="0" y="18" width="4" height="52" rx="2" fill="url(#st-accent)"/>
+        <text x="24" y="28" class="st-mono" fill="#93C5FD" font-size="11" font-weight="700" letter-spacing="1.4">05 // DEVELOPER TOOLS</text>
+        <g transform="translate(24, 40)">
+          <g class="st-chip">
+            <rect x="0" y="0" width="96" height="34" rx="10" fill="rgba(36, 123, 255, 0.16)" stroke="#247BFF" stroke-width="1"/>
+            <circle cx="18" cy="17" r="4" fill="#FF354F"/>
+            <text x="32" y="22" class="st-font" fill="#F5F7FA" font-size="13.5" font-weight="700">Git</text>
+          </g>
+          <g class="st-chip" transform="translate(110, 0)">
+            <rect x="0" y="0" width="118" height="34" rx="10" fill="rgba(36, 123, 255, 0.16)" stroke="#247BFF" stroke-width="1"/>
+            <circle cx="18" cy="17" r="4" fill="#F8FAFC"/>
+            <text x="32" y="22" class="st-font" fill="#F5F7FA" font-size="13.5" font-weight="700">GitHub</text>
+          </g>
+          <g class="st-chip" transform="translate(242, 0)">
+            <rect x="0" y="0" width="132" height="34" rx="10" fill="rgba(36, 123, 255, 0.16)" stroke="#247BFF" stroke-width="1"/>
+            <circle cx="18" cy="17" r="4" fill="#247BFF"/>
+            <text x="32" y="22" class="st-font" fill="#F5F7FA" font-size="13.5" font-weight="700">VS Code</text>
+          </g>
+        </g>
+      </g>
+
+      <!-- Architecture Summary Footer Bar -->
+      <g transform="translate(0, 412)">
+        <rect x="0" y="0" width="496" height="72" rx="16" fill="rgba(7, 11, 22, 0.85)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1"/>
+        <text x="22" y="28" class="st-mono" fill="#60A5FA" font-size="11" font-weight="700">CORE ARCHITECTURE //</text>
+        <text x="22" y="50" class="st-font" fill="#CBD5E1" font-size="13" font-weight="600">Spring Boot Center • 3 Orbital Layers • 10 Core Technologies</text>
+      </g>
+    </g>
+
+    <!-- Outer Border -->
+    <rect x="9" y="9" width="1182" height="602" rx="25" fill="none" stroke="url(#st-border)" stroke-width="2"/>
+  </g>
+</svg>

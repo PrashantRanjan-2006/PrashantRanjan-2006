@@ -1,0 +1,456 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="100%" height="100%">
+  <defs>
+    <style>
+      .ab-font { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .ab-mono { font-family: 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+
+      /* 6 slides x 4 seconds = 24s total cycle */
+      @keyframes abSlide1 {
+        0%, 14.5% { opacity: 1; transform: translateY(0px) scale(1); }
+        16.66%, 98% { opacity: 0; transform: translateY(12px) scale(0.98); }
+        100% { opacity: 1; transform: translateY(0px) scale(1); }
+      }
+      @keyframes abSlide2 {
+        0%, 15% { opacity: 0; transform: translateY(12px) scale(0.98); }
+        16.66%, 31.2% { opacity: 1; transform: translateY(0px) scale(1); }
+        33.33%, 100% { opacity: 0; transform: translateY(-12px) scale(0.98); }
+      }
+      @keyframes abSlide3 {
+        0%, 31.8% { opacity: 0; transform: translateY(12px) scale(0.98); }
+        33.33%, 47.8% { opacity: 1; transform: translateY(0px) scale(1); }
+        50%, 100% { opacity: 0; transform: translateY(-12px) scale(0.98); }
+      }
+      @keyframes abSlide4 {
+        0%, 48.5% { opacity: 0; transform: translateY(12px) scale(0.98); }
+        50%, 64.5% { opacity: 1; transform: translateY(0px) scale(1); }
+        66.66%, 100% { opacity: 0; transform: translateY(-12px) scale(0.98); }
+      }
+      @keyframes abSlide5 {
+        0%, 65% { opacity: 0; transform: translateY(12px) scale(0.98); }
+        66.66%, 81.2% { opacity: 1; transform: translateY(0px) scale(1); }
+        83.33%, 100% { opacity: 0; transform: translateY(-12px) scale(0.98); }
+      }
+      @keyframes abSlide6 {
+        0%, 81.8% { opacity: 0; transform: translateY(12px) scale(0.98); }
+        83.33%, 97.8% { opacity: 1; transform: translateY(0px) scale(1); }
+        100% { opacity: 0; transform: translateY(-12px) scale(0.98); }
+      }
+
+      /* 6 segment progress bars filling over their 4s window */
+      @keyframes abProg1 {
+        0% { width: 0px; opacity: 1; }
+        16.66% { width: 68px; opacity: 1; }
+        16.67%, 100% { width: 68px; opacity: 0.25; }
+      }
+      @keyframes abProg2 {
+        0%, 16.66% { width: 0px; opacity: 0.25; }
+        16.67% { width: 0px; opacity: 1; }
+        33.33% { width: 68px; opacity: 1; }
+        33.34%, 100% { width: 68px; opacity: 0.25; }
+      }
+      @keyframes abProg3 {
+        0%, 33.33% { width: 0px; opacity: 0.25; }
+        33.34% { width: 0px; opacity: 1; }
+        50% { width: 68px; opacity: 1; }
+        50.01%, 100% { width: 68px; opacity: 0.25; }
+      }
+      @keyframes abProg4 {
+        0%, 50% { width: 0px; opacity: 0.25; }
+        50.01% { width: 0px; opacity: 1; }
+        66.66% { width: 68px; opacity: 1; }
+        66.67%, 100% { width: 68px; opacity: 0.25; }
+      }
+      @keyframes abProg5 {
+        0%, 66.66% { width: 0px; opacity: 0.25; }
+        66.67% { width: 0px; opacity: 1; }
+        83.33% { width: 68px; opacity: 1; }
+        83.34%, 100% { width: 68px; opacity: 0.25; }
+      }
+      @keyframes abProg6 {
+        0%, 83.33% { width: 0px; opacity: 0.25; }
+        83.34% { width: 0px; opacity: 1; }
+        100% { width: 68px; opacity: 1; }
+      }
+
+      /* Active chip highlight in the 6-hobby grid */
+      @keyframes abChip1 {
+        0%, 16.6% { stroke: #247BFF; fill: rgba(36, 123, 255, 0.22); }
+        16.7%, 100% { stroke: rgba(255,255,255,0.1); fill: rgba(15, 23, 42, 0.55); }
+      }
+      @keyframes abChip2 {
+        0%, 16.6%, 33.4%, 100% { stroke: rgba(255,255,255,0.1); fill: rgba(15, 23, 42, 0.55); }
+        16.7%, 33.3% { stroke: #FF354F; fill: rgba(255, 53, 79, 0.22); }
+      }
+      @keyframes abChip3 {
+        0%, 33.3%, 50.1%, 100% { stroke: rgba(255,255,255,0.1); fill: rgba(15, 23, 42, 0.55); }
+        33.4%, 50% { stroke: #247BFF; fill: rgba(36, 123, 255, 0.22); }
+      }
+      @keyframes abChip4 {
+        0%, 50%, 66.7%, 100% { stroke: rgba(255,255,255,0.1); fill: rgba(15, 23, 42, 0.55); }
+        50.1%, 66.6% { stroke: #FF354F; fill: rgba(255, 53, 79, 0.22); }
+      }
+      @keyframes abChip5 {
+        0%, 66.6%, 83.4%, 100% { stroke: rgba(255,255,255,0.1); fill: rgba(15, 23, 42, 0.55); }
+        66.7%, 83.3% { stroke: #247BFF; fill: rgba(36, 123, 255, 0.22); }
+      }
+      @keyframes abChip6 {
+        0%, 83.3% { stroke: rgba(255,255,255,0.1); fill: rgba(15, 23, 42, 0.55); }
+        83.4%, 100% { stroke: #FF354F; fill: rgba(255, 53, 79, 0.22); }
+      }
+
+      .ab-s1 { animation: abSlide1 24s cubic-bezier(0.16, 1, 0.3, 1) infinite; }
+      .ab-s2 { animation: abSlide2 24s cubic-bezier(0.16, 1, 0.3, 1) infinite; opacity: 0; }
+      .ab-s3 { animation: abSlide3 24s cubic-bezier(0.16, 1, 0.3, 1) infinite; opacity: 0; }
+      .ab-s4 { animation: abSlide4 24s cubic-bezier(0.16, 1, 0.3, 1) infinite; opacity: 0; }
+      .ab-s5 { animation: abSlide5 24s cubic-bezier(0.16, 1, 0.3, 1) infinite; opacity: 0; }
+      .ab-s6 { animation: abSlide6 24s cubic-bezier(0.16, 1, 0.3, 1) infinite; opacity: 0; }
+
+      .ab-p1 { animation: abProg1 24s linear infinite; }
+      .ab-p2 { animation: abProg2 24s linear infinite; }
+      .ab-p3 { animation: abProg3 24s linear infinite; }
+      .ab-p4 { animation: abProg4 24s linear infinite; }
+      .ab-p5 { animation: abProg5 24s linear infinite; }
+      .ab-p6 { animation: abProg6 24s linear infinite; }
+
+      .ab-c1 { animation: abChip1 24s infinite; }
+      .ab-c2 { animation: abChip2 24s infinite; }
+      .ab-c3 { animation: abChip3 24s infinite; }
+      .ab-c4 { animation: abChip4 24s infinite; }
+      .ab-c5 { animation: abChip5 24s infinite; }
+      .ab-c6 { animation: abChip6 24s infinite; }
+
+      .ab-hover-card {
+        transition: transform 0.3s ease, stroke 0.3s ease;
+      }
+      .ab-hover-card:hover {
+        transform: translateY(-3px);
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .ab-s1, .ab-s2, .ab-s3, .ab-s4, .ab-s5, .ab-s6,
+        .ab-p1, .ab-p2, .ab-p3, .ab-p4, .ab-p5, .ab-p6,
+        .ab-c1, .ab-c2, .ab-c3, .ab-c4, .ab-c5, .ab-c6 {
+          animation: none !important;
+        }
+        .ab-s1 { opacity: 1 !important; }
+        .ab-s2, .ab-s3, .ab-s4, .ab-s5, .ab-s6 { opacity: 0 !important; }
+      }
+    </style>
+
+    <linearGradient id="ab-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050811"/>
+      <stop offset="50%" stop-color="#070B16"/>
+      <stop offset="100%" stop-color="#0B1124"/>
+    </linearGradient>
+
+    <linearGradient id="ab-border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#247BFF" stop-opacity="0.75"/>
+      <stop offset="50%" stop-color="#334155" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#FF354F" stop-opacity="0.75"/>
+    </linearGradient>
+
+    <linearGradient id="ab-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#247BFF"/>
+      <stop offset="100%" stop-color="#FF354F"/>
+    </linearGradient>
+
+    <linearGradient id="ab-card-fill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" stop-opacity="0.82"/>
+      <stop offset="100%" stop-color="#090E1C" stop-opacity="0.68"/>
+    </linearGradient>
+
+    <radialGradient id="ab-glow-blue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#247BFF" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#247BFF" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="ab-glow-red" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF354F" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#FF354F" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="ab-dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#94A3B8" fill-opacity="0.12"/>
+    </pattern>
+
+    <clipPath id="ab-outer-clip">
+      <rect x="8" y="8" width="1184" height="484" rx="26"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#ab-outer-clip)">
+    <!-- Background -->
+    <rect x="8" y="8" width="1184" height="484" rx="26" fill="url(#ab-bg)"/>
+    <rect x="8" y="8" width="1184" height="484" rx="26" fill="url(#ab-dots)"/>
+
+    <!-- Ambient Glows -->
+    <circle cx="260" cy="240" r="280" fill="url(#ab-glow-blue)">
+      <animate attributeName="cx" values="230;300;230" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="940" cy="260" r="280" fill="url(#ab-glow-red)">
+      <animate attributeName="cy" values="230;290;230" dur="9s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- ==========================================
+         LEFT PANEL: ABOUT ME PROFILE CARD
+         ========================================== -->
+    <g transform="translate(36, 34)">
+      <rect x="0" y="0" width="548" height="432" rx="22" fill="url(#ab-card-fill)" stroke="rgba(36, 123, 255, 0.32)" stroke-width="1.2"/>
+      <line x1="40" y1="1" x2="320" y2="1" stroke="url(#ab-accent)" stroke-width="2"/>
+
+      <!-- Section Badge -->
+      <rect x="30" y="26" width="142" height="28" rx="14" fill="rgba(36, 123, 255, 0.15)" stroke="rgba(36, 123, 255, 0.45)" stroke-width="1"/>
+      <circle cx="46" cy="40" r="3.5" fill="#247BFF"/>
+      <text x="58" y="44" class="ab-mono" fill="#60A5FA" font-size="11" font-weight="700" letter-spacing="1.2">01 // PROFILE</text>
+
+      <!-- Title -->
+      <text x="30" y="92" class="ab-font" fill="#F5F7FA" font-size="34" font-weight="800" letter-spacing="-0.8">About Me</text>
+      <text x="202" y="90" class="ab-mono" fill="#64748B" font-size="12" font-weight="600">// PRASHANT RANJAN</text>
+
+      <!-- Info Card 1: B.Tech CSE Student & Galgotias University -->
+      <g class="ab-hover-card" transform="translate(30, 114)">
+        <rect x="0" y="0" width="488" height="78" rx="14" fill="rgba(7, 11, 22, 0.72)" stroke="rgba(255, 255, 255, 0.09)" stroke-width="1"/>
+        <rect x="16" y="16" width="46" height="46" rx="12" fill="rgba(36, 123, 255, 0.16)" stroke="rgba(36, 123, 255, 0.4)" stroke-width="1"/>
+        <!-- Graduation Cap Icon -->
+        <path d="M39 27 L27 33 L39 39 L51 33 L39 27 Z M31 36.5 L31 43 C31 45.2 34.6 47 39 47 C43.4 47 47 45.2 47 43 L47 36.5 L39 40.5 L31 36.5 Z" fill="#247BFF"/>
+        <text x="76" y="34" class="ab-font" fill="#F5F7FA" font-size="16.5" font-weight="700">B.Tech CSE Student</text>
+        <text x="76" y="56" class="ab-font" fill="#93C5FD" font-size="13.5" font-weight="600">Galgotias University</text>
+        <rect x="382" y="24" width="90" height="28" rx="8" fill="rgba(36, 123, 255, 0.12)" stroke="rgba(36, 123, 255, 0.3)" stroke-width="1"/>
+        <text x="427" y="42" text-anchor="middle" class="ab-mono" fill="#60A5FA" font-size="11" font-weight="700">CSE CORE</text>
+      </g>
+
+      <!-- Info Card 2: Greater Noida Location -->
+      <g class="ab-hover-card" transform="translate(30, 204)">
+        <rect x="0" y="0" width="488" height="68" rx="14" fill="rgba(7, 11, 22, 0.72)" stroke="rgba(255, 255, 255, 0.09)" stroke-width="1"/>
+        <rect x="16" y="11" width="46" height="46" rx="12" fill="rgba(255, 53, 79, 0.15)" stroke="rgba(255, 53, 79, 0.4)" stroke-width="1"/>
+        <!-- Map Pin Icon -->
+        <path d="M39 22 C34.6 22 31 25.6 31 30 C31 35.8 39 42 39 42 C39 42 47 35.8 47 30 C47 25.6 43.4 22 39 22 Z M39 33 C37.3 33 36 31.7 36 30 C36 28.3 37.3 27 39 27 C40.7 27 42 28.3 42 30 C42 31.7 40.7 33 39 33 Z" fill="#FF354F"/>
+        <text x="76" y="31" class="ab-font" fill="#F5F7FA" font-size="16" font-weight="700">Greater Noida, India</text>
+        <text x="76" y="51" class="ab-mono" fill="#94A3B8" font-size="12" font-weight="500">IST (UTC+05:30) • NCR Tech Hub</text>
+        <circle cx="458" cy="34" r="5" fill="#10B981">
+          <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+
+      <!-- Dual Role Cards: Java Developer & Full Stack Developer -->
+      <g class="ab-hover-card" transform="translate(30, 284)">
+        <rect x="0" y="0" width="236" height="86" rx="14" fill="rgba(36, 123, 255, 0.1)" stroke="rgba(36, 123, 255, 0.4)" stroke-width="1.2"/>
+        <circle cx="26" cy="26" r="10" fill="rgba(36, 123, 255, 0.25)"/>
+        <circle cx="26" cy="26" r="4" fill="#247BFF"/>
+        <text x="44" y="30" class="ab-mono" fill="#60A5FA" font-size="11" font-weight="700">PRIMARY CRAFT</text>
+        <text x="18" y="55" class="ab-font" fill="#F5F7FA" font-size="17" font-weight="800">Java Developer</text>
+        <text x="18" y="73" class="ab-mono" fill="#94A3B8" font-size="11">Spring Boot • OOP • MySQL</text>
+      </g>
+
+      <g class="ab-hover-card" transform="translate(282, 284)">
+        <rect x="0" y="0" width="236" height="86" rx="14" fill="rgba(255, 53, 79, 0.1)" stroke="rgba(255, 53, 79, 0.4)" stroke-width="1.2"/>
+        <circle cx="26" cy="26" r="10" fill="rgba(255, 53, 79, 0.25)"/>
+        <circle cx="26" cy="26" r="4" fill="#FF354F"/>
+        <text x="44" y="30" class="ab-mono" fill="#FF6B7F" font-size="11" font-weight="700">END-TO-END</text>
+        <text x="18" y="55" class="ab-font" fill="#F5F7FA" font-size="17" font-weight="800">Full Stack Developer</text>
+        <text x="18" y="73" class="ab-mono" fill="#94A3B8" font-size="11">React • JS • REST APIs • UI</text>
+      </g>
+
+      <!-- Bottom Telemetry Strip -->
+      <rect x="30" y="384" width="488" height="30" rx="8" fill="rgba(7, 11, 22, 0.65)" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+      <text x="44" y="403" class="ab-mono" fill="#64748B" font-size="11" font-weight="600">FOCUS // <tspan fill="#E2E8F0">Clean Architecture • Scalable Backend • Modern UI</tspan></text>
+    </g>
+
+    <!-- ==========================================
+         RIGHT PANEL: 4-SECOND AUTOMATIC CAROUSEL
+         ========================================== -->
+    <g transform="translate(612, 34)">
+      <rect x="0" y="0" width="552" height="432" rx="22" fill="url(#ab-card-fill)" stroke="rgba(255, 53, 79, 0.32)" stroke-width="1.2"/>
+      <line x1="230" y1="1" x2="512" y2="1" stroke="url(#ab-accent)" stroke-width="2"/>
+
+      <!-- Header & Auto-Timer Tag -->
+      <rect x="30" y="26" width="196" height="28" rx="14" fill="rgba(255, 53, 79, 0.15)" stroke="rgba(255, 53, 79, 0.45)" stroke-width="1"/>
+      <circle cx="46" cy="40" r="3.5" fill="#FF354F">
+        <animate attributeName="opacity" values="1;0.3;1" dur="1.2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="58" y="44" class="ab-mono" fill="#FF6B7F" font-size="11" font-weight="700" letter-spacing="1.2">02 // HOBBIES • 4S AUTO</text>
+
+      <!-- 6-Segment Animated Progress Bars (Top Right) -->
+      <g transform="translate(30, 68)">
+        <!-- Segment 1 -->
+        <rect x="0" y="0" width="68" height="5" rx="2.5" fill="#1E293B"/>
+        <rect class="ab-p1" x="0" y="0" width="68" height="5" rx="2.5" fill="#247BFF"/>
+        <!-- Segment 2 -->
+        <rect x="78" y="0" width="68" height="5" rx="2.5" fill="#1E293B"/>
+        <rect class="ab-p2" x="78" y="0" width="68" height="5" rx="2.5" fill="#FF354F"/>
+        <!-- Segment 3 -->
+        <rect x="156" y="0" width="68" height="5" rx="2.5" fill="#1E293B"/>
+        <rect class="ab-p3" x="156" y="0" width="68" height="5" rx="2.5" fill="#247BFF"/>
+        <!-- Segment 4 -->
+        <rect x="234" y="0" width="68" height="5" rx="2.5" fill="#1E293B"/>
+        <rect class="ab-p4" x="234" y="0" width="68" height="5" rx="2.5" fill="#FF354F"/>
+        <!-- Segment 5 -->
+        <rect x="312" y="0" width="68" height="5" rx="2.5" fill="#1E293B"/>
+        <rect class="ab-p5" x="312" y="0" width="68" height="5" rx="2.5" fill="#247BFF"/>
+        <!-- Segment 6 -->
+        <rect x="390" y="0" width="68" height="5" rx="2.5" fill="#1E293B"/>
+        <rect class="ab-p6" x="390" y="0" width="68" height="5" rx="2.5" fill="#FF354F"/>
+      </g>
+
+      <!-- Carousel Stage Box -->
+      <g transform="translate(30, 88)">
+        <rect x="0" y="0" width="492" height="202" rx="18" fill="rgba(7, 11, 22, 0.85)" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1.2"/>
+
+        <!-- SLIDE 1: GYM (0s - 4s) -->
+        <g class="ab-s1">
+          <circle cx="88" cy="101" r="54" fill="rgba(36, 123, 255, 0.14)" stroke="#247BFF" stroke-width="1.5"/>
+          <!-- Dumbbell Vector Icon -->
+          <g fill="none" stroke="#60A5FA" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" transform="translate(56, 69)">
+            <line x1="16" y1="32" x2="48" y2="32"/>
+            <rect x="10" y="18" width="6" height="28" rx="2" fill="#247BFF"/>
+            <rect x="4" y="23" width="5" height="18" rx="1.5" fill="#247BFF"/>
+            <rect x="48" y="18" width="6" height="28" rx="2" fill="#247BFF"/>
+            <rect x="55" y="23" width="5" height="18" rx="1.5" fill="#247BFF"/>
+          </g>
+          <rect x="166" y="34" width="96" height="24" rx="12" fill="rgba(36, 123, 255, 0.18)"/>
+          <text x="214" y="50" text-anchor="middle" class="ab-mono" fill="#60A5FA" font-size="11" font-weight="700">01 / 06 • LIFE</text>
+          <text x="166" y="92" class="ab-font" fill="#F5F7FA" font-size="32" font-weight="800">Gym</text>
+          <text x="166" y="122" class="ab-font" fill="#CBD5E1" font-size="14.5" font-weight="500">Strength training, iron discipline &amp; daily</text>
+          <text x="166" y="144" class="ab-font" fill="#94A3B8" font-size="14.5" font-weight="500">physical conditioning for peak focus.</text>
+          <text x="166" y="174" class="ab-mono" fill="#247BFF" font-size="11.5" font-weight="700">DISCIPLINE • CONSISTENCY • ENDURANCE</text>
+        </g>
+
+        <!-- SLIDE 2: UI DESIGN (4s - 8s) -->
+        <g class="ab-s2">
+          <circle cx="88" cy="101" r="54" fill="rgba(255, 53, 79, 0.14)" stroke="#FF354F" stroke-width="1.5"/>
+          <!-- UI Design Layers / Bezier Vector Icon -->
+          <g fill="none" stroke="#FF6B7F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" transform="translate(56, 69)">
+            <polygon points="32,12 54,23 32,34 10,23" fill="rgba(255, 53, 79, 0.25)"/>
+            <polyline points="10,33 32,44 54,33"/>
+            <polyline points="10,43 32,54 54,43"/>
+          </g>
+          <rect x="166" y="34" width="96" height="24" rx="12" fill="rgba(255, 53, 79, 0.18)"/>
+          <text x="214" y="50" text-anchor="middle" class="ab-mono" fill="#FF6B7F" font-size="11" font-weight="700">02 / 06 • CRAFT</text>
+          <text x="166" y="92" class="ab-font" fill="#F5F7FA" font-size="32" font-weight="800">UI Design</text>
+          <text x="166" y="122" class="ab-font" fill="#CBD5E1" font-size="14.5" font-weight="500">Designing glassmorphic dark luxury interfaces,</text>
+          <text x="166" y="144" class="ab-font" fill="#94A3B8" font-size="14.5" font-weight="500">motion systems &amp; pixel-perfect layouts.</text>
+          <text x="166" y="174" class="ab-mono" fill="#FF354F" font-size="11.5" font-weight="700">DESIGN SYSTEMS • MICRO-INTERACTIONS</text>
+        </g>
+
+        <!-- SLIDE 3: ARTIFICIAL INTELLIGENCE (8s - 12s) -->
+        <g class="ab-s3">
+          <circle cx="88" cy="101" r="54" fill="rgba(36, 123, 255, 0.14)" stroke="#247BFF" stroke-width="1.5"/>
+          <!-- Neural Network Core Vector Icon -->
+          <g fill="none" stroke="#60A5FA" stroke-width="2.4" transform="translate(56, 69)">
+            <circle cx="32" cy="32" r="9" fill="rgba(36, 123, 255, 0.3)"/>
+            <circle cx="32" cy="10" r="4" fill="#247BFF"/>
+            <circle cx="32" cy="54" r="4" fill="#247BFF"/>
+            <circle cx="12" cy="21" r="4" fill="#247BFF"/>
+            <circle cx="52" cy="21" r="4" fill="#247BFF"/>
+            <circle cx="12" cy="43" r="4" fill="#247BFF"/>
+            <circle cx="52" cy="43" r="4" fill="#247BFF"/>
+            <line x1="32" y1="14" x2="32" y2="23"/>
+            <line x1="32" y1="41" x2="32" y2="50"/>
+            <line x1="16" y1="23" x2="24" y2="28"/>
+            <line x1="48" y1="23" x2="40" y2="28"/>
+            <line x1="16" y1="41" x2="24" y2="36"/>
+            <line x1="48" y1="41" x2="40" y2="36"/>
+          </g>
+          <rect x="166" y="34" width="110" height="24" rx="12" fill="rgba(36, 123, 255, 0.18)"/>
+          <text x="221" y="50" text-anchor="middle" class="ab-mono" fill="#60A5FA" font-size="11" font-weight="700">03 / 06 • FUTURE</text>
+          <text x="166" y="92" class="ab-font" fill="#F5F7FA" font-size="28" font-weight="800">Artificial Intelligence</text>
+          <text x="166" y="122" class="ab-font" fill="#CBD5E1" font-size="14.5" font-weight="500">Exploring generative AI, LLM agents &amp;</text>
+          <text x="166" y="144" class="ab-font" fill="#94A3B8" font-size="14.5" font-weight="500">integrating smart automation into web apps.</text>
+          <text x="166" y="174" class="ab-mono" fill="#247BFF" font-size="11.5" font-weight="700">LLMS • NEURAL WORKFLOWS • AI AGENTS</text>
+        </g>
+
+        <!-- SLIDE 4: CHESS (12s - 16s) -->
+        <g class="ab-s4">
+          <circle cx="88" cy="101" r="54" fill="rgba(255, 53, 79, 0.14)" stroke="#FF354F" stroke-width="1.5"/>
+          <!-- Chess Strategy Crown / Knight Vector Icon -->
+          <g fill="none" stroke="#FF6B7F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" transform="translate(56, 69)">
+            <path d="M18 50 L46 50 M21 44 L43 44 L40 24 L32 31 L24 24 L21 44 Z" fill="rgba(255, 53, 79, 0.22)"/>
+            <circle cx="32" cy="15" r="3" fill="#FF354F"/>
+            <circle cx="19" cy="18" r="2.5" fill="#FF354F"/>
+            <circle cx="45" cy="18" r="2.5" fill="#FF354F"/>
+          </g>
+          <rect x="166" y="34" width="114" height="24" rx="12" fill="rgba(255, 53, 79, 0.18)"/>
+          <text x="223" y="50" text-anchor="middle" class="ab-mono" fill="#FF6B7F" font-size="11" font-weight="700">04 / 06 • STRATEGY</text>
+          <text x="166" y="92" class="ab-font" fill="#F5F7FA" font-size="32" font-weight="800">Chess</text>
+          <text x="166" y="122" class="ab-font" fill="#CBD5E1" font-size="14.5" font-weight="500">Sharpening pattern recognition, tactical</text>
+          <text x="166" y="144" class="ab-font" fill="#94A3B8" font-size="14.5" font-weight="500">calculation &amp; deep decision-tree thinking.</text>
+          <text x="166" y="174" class="ab-mono" fill="#FF354F" font-size="11.5" font-weight="700">TACTICS • FORESIGHT • ENDGAME LOGIC</text>
+        </g>
+
+        <!-- SLIDE 5: PHOTOGRAPHY (16s - 20s) -->
+        <g class="ab-s5">
+          <circle cx="88" cy="101" r="54" fill="rgba(36, 123, 255, 0.14)" stroke="#247BFF" stroke-width="1.5"/>
+          <!-- Camera Lens Vector Icon -->
+          <g fill="none" stroke="#60A5FA" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" transform="translate(56, 69)">
+            <rect x="10" y="18" width="44" height="32" rx="6" fill="rgba(36, 123, 255, 0.2)"/>
+            <path d="M23 18 L26 12 L38 12 L41 18"/>
+            <circle cx="32" cy="34" r="9"/>
+            <circle cx="32" cy="34" r="3.5" fill="#247BFF"/>
+          </g>
+          <rect x="166" y="34" width="110" height="24" rx="12" fill="rgba(36, 123, 255, 0.18)"/>
+          <text x="221" y="50" text-anchor="middle" class="ab-mono" fill="#60A5FA" font-size="11" font-weight="700">05 / 06 • VISION</text>
+          <text x="166" y="92" class="ab-font" fill="#F5F7FA" font-size="32" font-weight="800">Photography</text>
+          <text x="166" y="122" class="ab-font" fill="#CBD5E1" font-size="14.5" font-weight="500">Capturing natural light, perspective,</text>
+          <text x="166" y="144" class="ab-font" fill="#94A3B8" font-size="14.5" font-weight="500">minimalist composition &amp; visual stories.</text>
+          <text x="166" y="174" class="ab-mono" fill="#247BFF" font-size="11.5" font-weight="700">COMPOSITION • LIGHTING • PERSPECTIVE</text>
+        </g>
+
+        <!-- SLIDE 6: READING (20s - 24s) -->
+        <g class="ab-s6">
+          <circle cx="88" cy="101" r="54" fill="rgba(255, 53, 79, 0.14)" stroke="#FF354F" stroke-width="1.5"/>
+          <!-- Open Book Vector Icon -->
+          <g fill="none" stroke="#FF6B7F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" transform="translate(56, 69)">
+            <path d="M32 20 C26 16 16 16 10 19 L10 47 C16 44 26 44 32 48 C38 44 48 44 54 47 L54 19 C48 16 38 16 32 20 Z" fill="rgba(255, 53, 79, 0.2)"/>
+            <line x1="32" y1="20" x2="32" y2="48"/>
+          </g>
+          <rect x="166" y="34" width="110" height="24" rx="12" fill="rgba(255, 53, 79, 0.18)"/>
+          <text x="221" y="50" text-anchor="middle" class="ab-mono" fill="#FF6B7F" font-size="11" font-weight="700">06 / 06 • MINDSET</text>
+          <text x="166" y="92" class="ab-font" fill="#F5F7FA" font-size="32" font-weight="800">Reading</text>
+          <text x="166" y="122" class="ab-font" fill="#CBD5E1" font-size="14.5" font-weight="500">Studying software architecture, engineering</text>
+          <text x="166" y="144" class="ab-font" fill="#94A3B8" font-size="14.5" font-weight="500">playbooks &amp; high-leverage thinking.</text>
+          <text x="166" y="174" class="ab-mono" fill="#FF354F" font-size="11.5" font-weight="700">CONTINUOUS LEARNING • DEEP WORK</text>
+        </g>
+      </g>
+
+      <!-- All 6 Hobbies Interactive-Synced Selector Grid -->
+      <g transform="translate(30, 306)">
+        <!-- Row 1 -->
+        <g transform="translate(0, 0)">
+          <rect class="ab-c1" x="0" y="0" width="154" height="44" rx="12" fill="rgba(15, 23, 42, 0.55)" stroke="rgba(255,255,255,0.1)" stroke-width="1.2"/>
+          <circle cx="20" cy="22" r="4" fill="#247BFF"/>
+          <text x="34" y="27" class="ab-font" fill="#F5F7FA" font-size="13.5" font-weight="700">Gym</text>
+        </g>
+        <g transform="translate(169, 0)">
+          <rect class="ab-c2" x="0" y="0" width="154" height="44" rx="12" fill="rgba(15, 23, 42, 0.55)" stroke="rgba(255,255,255,0.1)" stroke-width="1.2"/>
+          <circle cx="20" cy="22" r="4" fill="#FF354F"/>
+          <text x="34" y="27" class="ab-font" fill="#F5F7FA" font-size="13.5" font-weight="700">UI Design</text>
+        </g>
+        <g transform="translate(338, 0)">
+          <rect class="ab-c3" x="0" y="0" width="154" height="44" rx="12" fill="rgba(15, 23, 42, 0.55)" stroke="rgba(255,255,255,0.1)" stroke-width="1.2"/>
+          <circle cx="18" cy="22" r="4" fill="#247BFF"/>
+          <text x="29" y="27" class="ab-font" fill="#F5F7FA" font-size="12" font-weight="700">Artificial Intel.</text>
+        </g>
+
+        <!-- Row 2 -->
+        <g transform="translate(0, 56)">
+          <rect class="ab-c4" x="0" y="0" width="154" height="44" rx="12" fill="rgba(15, 23, 42, 0.55)" stroke="rgba(255,255,255,0.1)" stroke-width="1.2"/>
+          <circle cx="20" cy="22" r="4" fill="#FF354F"/>
+          <text x="34" y="27" class="ab-font" fill="#F5F7FA" font-size="13.5" font-weight="700">Chess</text>
+        </g>
+        <g transform="translate(169, 56)">
+          <rect class="ab-c5" x="0" y="0" width="154" height="44" rx="12" fill="rgba(15, 23, 42, 0.55)" stroke="rgba(255,255,255,0.1)" stroke-width="1.2"/>
+          <circle cx="20" cy="22" r="4" fill="#247BFF"/>
+          <text x="34" y="27" class="ab-font" fill="#F5F7FA" font-size="13.5" font-weight="700">Photography</text>
+        </g>
+        <g transform="translate(338, 56)">
+          <rect class="ab-c6" x="0" y="0" width="154" height="44" rx="12" fill="rgba(15, 23, 42, 0.55)" stroke="rgba(255,255,255,0.1)" stroke-width="1.2"/>
+          <circle cx="20" cy="22" r="4" fill="#FF354F"/>
+          <text x="34" y="27" class="ab-font" fill="#F5F7FA" font-size="13.5" font-weight="700">Reading</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Outer Border -->
+    <rect x="9" y="9" width="1182" height="482" rx="25" fill="none" stroke="url(#ab-border-grad)" stroke-width="2"/>
+  </g>
+</svg>
